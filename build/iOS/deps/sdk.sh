@@ -2,7 +2,7 @@
 
 # This file sets the appropiate compiler and flags for compiling for iOS without XCode
 sdk=iphoneos
-osver=8.0
+osver=9.0
 
 export IOS_COMPILER=$(xcrun --sdk $sdk --find clang)
 export IOS_CC=$IOS_COMPILER
